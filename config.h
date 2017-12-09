@@ -5,7 +5,7 @@
  *
  * font: see http://freedesktop.org/software/fontconfig/fontconfig-user.html
  */
-char font[] = "Droid Sans Mono for Powerline:size=8:antialias=true:autohint=true";
+char font[] = "Droid Sans Mono for Powerline:size=12:antialias=true:autohint=true";
 int borderpx = 80;
 
 /*
