@@ -6,7 +6,7 @@
  * font: see http://freedesktop.org/software/fontconfig/fontconfig-user.html
  */
 char font[] = "Droid Sans Mono for Powerline:size=12:antialias=true:autohint=true";
-int borderpx = 80;
+int borderpx = 40;
 
 /*
  * What program is execed by st depends of these precedence rules:
@@ -81,36 +81,6 @@ char termname[] = "st-256color";
  *	stty tabs
  */
 static unsigned int tabspaces = 8;
-
-/* Terminal colors (16 first used in escape sequence) */
-/*const char *colorname[] = {
-	"#2b303b",
-	"#bf616a",
-	"#a3be8c",
-	"#ebcb8b",
-	"#8fa1b3",
-	"#b48ead",
-	"#96b5b4",
-	"#c0c5ce",
-	"#65737e",
-	"#bf616a",
-	"#a3be8c",
-	"#ebcb8b",
-	"#8fa1b3",
-	"#b48ead",
-	"#96b5b4",
-	"#eff1f5",
-	[255] = 0,
-};*/
-
-/*
- * Default colors (colorname index)
- * foreground, background, cursor, reverse cursor
- */
-/*unsigned int defaultfg = 7;
-unsigned int defaultbg = 0;
-unsigned int defaultcs = 7;
-unsigned int defaultrcs = 0;*/
 
 const char *colorname[] = {
   "#343d46", /* base01 */
