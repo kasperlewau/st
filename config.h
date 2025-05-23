@@ -5,7 +5,9 @@
  *
  * font: see http://freedesktop.org/software/fontconfig/fontconfig-user.html
  */
-char font[] = "Droid Sans Mono for Powerline:size=10:antialias=true:autohint=true";
+//char font[] = "Droid Sans Mono for Powerline:size=12:antialias=true:autohint=true";
+char font[] = "Hack Nerd Font Mono:size=12:antialias=true:autohint=true";
+
 int borderpx = 40;
 
 /*
@@ -82,32 +84,34 @@ char termname[] = "st-256color";
  */
 static unsigned int tabspaces = 8;
 
-/* Terminal colors (16 first used in escape sequence) */
 const char *colorname[] = {
 
   /* 8 normal colors */
-  [0] = "#141210", /* black   */
-  [1] = "#ff4444", /* red     */
-  [2] = "#8e8e8e", /* green   */
-  [3] = "#a0a0a0", /* yellow  */
-  [4] = "#686868", /* blue    */
-  [5] = "#747474", /* magenta */
-  [6] = "#868686", /* cyan    */
-  [7] = "#b9b9b9", /* white   */
+  [0] = "#414b50", /* black   */
+  [1] = "#e67e80", /* red     */
+  [2] = "#a7c080", /* green   */
+  [3] = "#dbbc7f", /* yellow  */
+  [4] = "#7fbbb3", /* blue    */
+  [5] = "#d699b6", /* magenta */
+  [6] = "#83c092", /* cyan    */
+  [7] = "#d3c6aa", /* white   */
 
   /* 8 bright colors */
-  [8]  = "#525252", /* black   */
-  [9]  = "#7c7c7c", /* red     */
-  [10] = "#8e8e8e", /* green   */
-  [11] = "#a0a0a0", /* yellow  */
-  [12] = "#686868", /* blue    */
-  [13] = "#747474", /* magenta */
-  [14] = "#868686", /* cyan    */
-  [15] = "#f7f7f7", /* white   */
+  [8]  = "#414b50", /* black   */
+  [9]  = "#e67e80", /* red     */
+  [10] = "#a7c080", /* green   */
+  [11] = "#dbbc7f", /* yellow  */
+  [12] = "#7fbbb3", /* blue    */
+  [13] = "#d699b6", /* magenta */
+  [14] = "#83c092", /* cyan    */
+  [15] = "#d3c6aa", /* white   */
 
+  /* special colors (override) */
+  [16] = "#272e23", /* background */
+  [17] = "#d3c6aa", /* foreground */
   /* special colors */
-  [256] = "#141210", /* background */
-  [257] = "#b9b9b9", /* foreground */
+  [256] = "#272e23", /* background */
+  [257] = "#d3c6aa", /* foreground */
 };
 
 /*
